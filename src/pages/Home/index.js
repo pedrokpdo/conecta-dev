@@ -1,27 +1,16 @@
-import './styles.css'
+import { Feed } from './components/Feed'
+import { Header } from './components/Header'
+import { NavBar } from './components/NavBar'
+//import './styles.css'
+
 
 export const Home = () => {
     return (
-        <div>
-            <header className="header">
-                <div className="toolbar">
-                    <div className="">
-                        <span>Conecta-Dev</span>
-                    </div>
-                    <div className="">
-                        <button>Novo Post</button>
-                        <span>img1</span>
-                        <span>img2</span>
-                    </div>
-                </div>
-            </header>
-            <main className='main'>
-                <div className='navbar'>
-                    navbar
-                </div>
-                <div className='feed'>
-                    feed
-                </div>
+        <div style={{display:'flex', flexDirection:'column'}}>
+            <Header/>
+            <main style={{height:'100vh', display:'flex', width:'1200px', margin:'0 auto'}}>
+                <NavBar/>
+                <Feed/>
             </main>
         </div>
     )
