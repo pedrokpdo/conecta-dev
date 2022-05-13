@@ -12,7 +12,7 @@ export const Header = () => {
                 <h1>Conecta-Dev</h1>
                 <div style={{flexGrow:'1'}}></div>
                 <div style={{display:'flex', alignItems:'center'}}>
-                    <Button style={{marginRight:'10px'}} color='primary' variant="contained">Novo Post</Button>
+                    <Button style={{marginRight:'10px'}} variant="contained">Novo Post</Button>
                     <SvgIcon>
                         <Bell/>
                     </SvgIcon>

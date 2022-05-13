@@ -11,7 +11,7 @@ export const NavBar = () => {
     ]
 
     return (
-        <Paper style={{ padding: 16, width: 275, marginRight:16, }}>
+        <Paper style={{ padding: '16px', width: '275px', marginRight:'16px', }}>
             <Button variant="outlined" color="secondary" style={{ width: '100%' }}>Registre-se Gratis</Button>
             <ListSubheader>{'tags em alta'}</ListSubheader>
             {tags.map((item) => (
